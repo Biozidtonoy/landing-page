@@ -38,10 +38,8 @@ h1{
 }
 .header-items{
     width: 80%;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    /* gap: 32px; */
     
 }
 nav ul{
@@ -49,7 +47,6 @@ nav ul{
     margin: 0;
     padding: 0;
     display: flex;
-    /* border: 2px solid white; */
     justify-content: flex-end;
     gap: 32px;
     
@@ -58,11 +55,10 @@ nav ul{
     margin-right: auto;
 }
 .header-section{
-    /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
     gap:16px;
-    /* margin: 60px 0; */
+    margin: 60px 0;
     padding: 66px 0;
 }
 .header-left-item{
@@ -78,7 +74,6 @@ nav ul{
     width: 600px;
 }
 .header-image{
-    /* border: 2px solid purple; */
     background-color: #434d5a;
     display: flex;
     justify-content: center;
@@ -90,7 +85,6 @@ nav ul{
 
 /* section-2 start from  here */
 .section-2{
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,11 +98,12 @@ nav ul{
     color: #1F2937 ;
 }
 .cards{
-    /* border: 2px solid black; */
+    
     display: flex;
     flex-flow: row wrap;
     height: 350px;
-    /* width: 70%; */
+    margin-bottom: 50px;
+    
 }
 .card{
     flex: 1;
@@ -132,7 +127,6 @@ nav ul{
 
 /* section-3 start from here */
 .section-3{
-    /* border: 2px solid black; */
     background-color:#e5e7eb;
     display: flex; 
     align-items: center;
@@ -144,6 +138,7 @@ nav ul{
     flex-flow: column wrap;
     width: 50%;
     padding: 48px;
+    margin: 80px 0 ;
 }
 
 .sec-quote{
@@ -157,6 +152,5 @@ nav ul{
 } 
 /* section-3 end here */
 
-section-4 start from here{
-    
-}
+/* section-4 start from here */
+
