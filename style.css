@@ -33,12 +33,14 @@ h1{
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
     padding: 16px;
 }
 .header-items{
     width: 80%;
     display: flex;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     
 }
@@ -56,18 +58,21 @@ nav ul{
 }
 .header-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap:16px;
     margin: 60px 0;
     padding: 66px 0;
+    align-items: center;
 }
 .header-left-item{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+    flex: 1;
 }
-.text{
+.text h1{
     width: 500px;
 }
 .sec-text{
@@ -79,6 +84,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     width: 500px;
+    height: 200px;
     padding: 16px;
 }
 /* section-1 end here (header part) */
@@ -153,4 +159,43 @@ nav ul{
 /* section-3 end here */
 
 /* section-4 start from here */
-
+.signup-btn-2{
+    background-color:#3882f6 ;
+    color: #F9FAF8;
+    font-weight: 900;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    width: 10%;
+}
+.section-4{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.sec4-box1{
+    background-color:#3882f6 ;
+    border-radius: 10px;
+    color: #F9FAF8;
+    width: 60%;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    padding: 48px;
+    margin: 60px 0;
+}
+.sec4-header-txt{
+    font-size: 25px;
+    font-weight: 900;
+}
+.sec4-text{
+    font-size: initial;
+    font-weight: 100;
+}
+.footer{
+    background-color: #1F2937;
+    color:#F9FAF8
+}
+.copyright{
+    text-align: center;
+    padding: 48px;
+}
