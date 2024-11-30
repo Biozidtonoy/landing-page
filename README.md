@@ -1,2 +1,2 @@
 # landing-page
-basic landing page project . first attempt to the web developing world . 
+first attempt to the web developing world making a basic landing page project by html and css only.
